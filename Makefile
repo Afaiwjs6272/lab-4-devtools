@@ -1,8 +1,8 @@
 all:
-	g++ -std=c++17 algorithms_1.cpp -o algorithms_1
+	g++ -std=c++17 first.cpp -o first
 
 test:
-	chmod +x algorithms_1
+	chmod +x first
 
 clean:
-	$(RM) algorithms_1
+	$(RM) first
